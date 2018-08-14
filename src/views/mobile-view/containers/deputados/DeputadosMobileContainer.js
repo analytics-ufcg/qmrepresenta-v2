@@ -21,7 +21,7 @@ const Option = Select.Option;
 
 const cardStyle = {
   margin: "0vh",
-  height: "35vh",
+  height: "42vh",
   overflowY: "scroll"
   //width: '60vh'
 };

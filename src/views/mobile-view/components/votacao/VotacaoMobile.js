@@ -27,21 +27,13 @@ class VotacaoMobile extends Votacao {
   }
 
   render() {
-    var painel = (
-      <ControlledExpansionPanelsMobile
-        pergunta={this.props.pergunta}
-        valorVoto={this.state.value}
-        descricao={this.props.descricao}
-      />
-    );
-
     var newPainel = (
       <Collapse accordion>
         <Panel
           header={this.props.pergunta}
           key={this.props.key}
           showArrow={false}
-          style={{ backgroundColor: this.colorPicker() }}
+          style={{ backgroundColor: this.colorPicker(), padding: "1em" }}
         >
           <p>{this.props.descricao}</p>
         </Panel>

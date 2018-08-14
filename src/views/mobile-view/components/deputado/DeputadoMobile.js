@@ -113,8 +113,8 @@ class DeputadoMobile extends Deputado {
             }
           >
             <Col
-              offset={5}
-              span={5}
+              offset={7}
+              span={3}
               style={{ top: "10px" }}
               onClick={this.onAvatarClick.bind(this)}
             >
