@@ -1,4 +1,4 @@
-# QMR 2.0
+# Quem Me Representa 2.0
 
 O QMR calcula a compatibilidade entre um eleitor e os deputados federais de acordo com as posições de ambos sobre temas dos últimos anos.
 Este repositório é um redesign do projeto em www.qmrepresenta.com.br, tanto visual quanto no backend. 
